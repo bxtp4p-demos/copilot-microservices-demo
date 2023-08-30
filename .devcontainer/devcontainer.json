@@ -4,6 +4,8 @@
     "ghcr.io/rio/features/skaffold:2": {},
     "ghcr.io/rio/features/k3d:1": {},
     "ghcr.io/devcontainers-contrib/features/kubectl-asdf:2": {},
-    
-  }
+  },
+
+  "onCreateCommand": "./.devcontainer/create.sh",
+  "postStartCommand": "./.devcontainer/start.sh",
 }
