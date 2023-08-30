@@ -5,7 +5,10 @@
     "ghcr.io/rio/features/k3d:1": {},
     "ghcr.io/devcontainers-contrib/features/kubectl-asdf:2": {},
   },
-
   "onCreateCommand": "./.devcontainer/create.sh",
   "postStartCommand": "./.devcontainer/start.sh",
+  "hostRequirements": {
+    "cpus": 4,
+    "memory": "16gb"
+  }
 }
