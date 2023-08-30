@@ -1,0 +1,9 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/rio/features/skaffold:2": {},
+    "ghcr.io/rio/features/k3d:1": {},
+    "ghcr.io/devcontainers-contrib/features/kubectl-asdf:2": {},
+    
+  }
+}
