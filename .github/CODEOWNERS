@@ -4,6 +4,6 @@
 # These owners will be the default owners for everything in
 # the repo. Unless a later match takes precedence.
 * @bxtp4p
-kubernetes-manifests/* @infra-team
-src/adservice/* @java-team
-src/cartservice/* @dotnet-team
+kubernetes-manifests/* @bxtp4p-demos/infra-team
+src/adservice/* @bxtp4p-demos/java-team
+src/cartservice/* @bxtp4p-demos/dotnet-team
